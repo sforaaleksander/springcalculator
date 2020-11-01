@@ -12,7 +12,7 @@ import javax.servlet.http.HttpServletRequest;
 public class CalculatorController {
 
     @RequestMapping(value = "/calculator", method = RequestMethod.GET)
-    public String calculator(HttpServletRequest request){
+    public String calculator(){
         return "form";
     }
 
